@@ -13,6 +13,7 @@
 		AB5EBFDB24052FB100E5DB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5EBFD924052FB100E5DB27 /* Main.storyboard */; };
 		AB5EBFDD24052FB200E5DB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5EBFDC24052FB200E5DB27 /* Assets.xcassets */; };
 		AB5EBFE024052FB200E5DB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5EBFDE24052FB200E5DB27 /* LaunchScreen.storyboard */; };
+		AB5EBFE82406F4B900E5DB27 /* CubesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EBFE72406F4B900E5DB27 /* CubesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AB5EBFDC24052FB200E5DB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5EBFDF24052FB200E5DB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5EBFE124052FB200E5DB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5EBFE72406F4B900E5DB27 /* CubesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AB5EBFD524052FB100E5DB27 /* SceneDelegate.swift */,
 				AB5EBFD724052FB100E5DB27 /* TurningViewController.swift */,
 				AB5EBFD924052FB100E5DB27 /* Main.storyboard */,
+				AB5EBFE72406F4B900E5DB27 /* CubesViewController.swift */,
 				AB5EBFDC24052FB200E5DB27 /* Assets.xcassets */,
 				AB5EBFDE24052FB200E5DB27 /* LaunchScreen.storyboard */,
 				AB5EBFE124052FB200E5DB27 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5EBFD824052FB100E5DB27 /* TurningViewController.swift in Sources */,
+				AB5EBFE82406F4B900E5DB27 /* CubesViewController.swift in Sources */,
 				AB5EBFD424052FB100E5DB27 /* AppDelegate.swift in Sources */,
 				AB5EBFD624052FB100E5DB27 /* SceneDelegate.swift in Sources */,
 			);

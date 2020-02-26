@@ -60,7 +60,71 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="102" y="135"/>
+        </scene>
+        <!--Cubes View Controller-->
+        <scene sceneID="Ymu-ka-04H">
+            <objects>
+                <viewController id="KTs-7m-FcY" userLabel="Cubes View Controller" customClass="CubesViewController" customModule="homework_13" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Co-Fc-Hs1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cIl-nr-nFM" userLabel="View2">
+                                <rect key="frame" x="147" y="26" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="S5H-4F-qlf" appends="YES" id="KOA-el-5Cx"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1si-0Q-Dcc" userLabel="View3">
+                                <rect key="frame" x="273" y="26" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hWz-dC-1o3" appends="YES" id="zac-5d-S7l"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHs-WL-dNU" userLabel="View1">
+                                <rect key="frame" x="22" y="26" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Z47-RO-0Do" appends="YES" id="IQc-ec-Hae"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dqr-67-LVd"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="AHs-WL-dNU" id="rmG-RV-gUW"/>
+                        <outlet property="view2" destination="cIl-nr-nFM" id="bPK-t6-Pip"/>
+                        <outlet property="view3" destination="1si-0Q-Dcc" id="dUx-EF-Rai"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uhn-Ga-A2I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Z47-RO-0Do" userLabel="View1 Gesture">
+                    <connections>
+                        <action selector="viewDidTap:" destination="KTs-7m-FcY" id="ug6-wj-eiR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="S5H-4F-qlf" userLabel="View2 Gesture">
+                    <connections>
+                        <action selector="viewDidTap:" destination="KTs-7m-FcY" id="1k2-jn-okK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="hWz-dC-1o3" userLabel="View3 Gesture">
+                    <connections>
+                        <action selector="viewDidTap:" destination="KTs-7m-FcY" id="KIX-XI-UDS"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="920.79999999999995" y="135.38230884557723"/>
         </scene>
     </scenes>
 </document>
